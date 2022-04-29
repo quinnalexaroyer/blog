@@ -1,0 +1,286 @@
+@font-face {
+  font-family: GeneticDefect;
+  src: url('/fonts/geneticdefect.ttf');
+}
+
+body {
+  color: white;
+  background-color: black;
+}
+
+h1,h2 {
+  text-align: center;
+}
+
+.mainHeader h1 {
+  text-align: left;
+  margin: 30px;
+  font-size: 3em;
+}
+
+.mainHeader hr {
+  border: none;
+  height: 5px;
+  color: #4f2;
+  background-color: #4f2;
+  margin: 0 0 40px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #4f2;
+  font-family: GeneticDefect;
+}
+
+.gridWrapper {
+  display: grid;
+}
+
+.mainHeader {
+  grid-column: 1/4;
+  grid-row: 1/2;
+}
+
+.mainFooter {
+  grid-column: 1/4;
+  grid-row: 3/4;
+}
+
+.leftColumn {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.rightColumn {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+
+.middleColumn {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.commentIndent0 {
+  margin-left: 0%;
+}
+.commentIndent1 {
+  margin-left: 5%;
+}
+.commentIndent2 {
+  margin-left: 10%;
+}
+.commentIndent3 {
+  margin-left: 15%;
+}
+.commentIndent4 {
+  margin-left: 20%;
+}
+.commentIndent5 {
+  margin-left: 25%;
+}
+.commentIndent6 {
+  margin-left: 30%;
+}
+.commentIndent7 {
+  margin-left: 35%;
+}
+.commentIndent8 {
+  margin-left: 40%;
+}
+.commentIndent9 {
+  margin-left: 45%;
+}
+.commentIndent10 {
+  margin-left: 50%;
+}
+
+.comment hr {
+  width: 30%;
+  margin-left: 0%;
+}
+
+a:link {
+  color: #4b2;
+}
+
+a:visited {
+  color: #4f8;
+}
+
+a:hover {
+  color: #df0;
+}
+
+a:active {
+  color: #ff5;
+}
+
+form label {
+  color: #4f2;
+  font-family: GeneticDefect;
+}
+
+.user_owner .userType {
+  color: #8080FF;
+  font-weight: bold;
+}
+
+.user_admin .userType {
+  color: #80C0FF;
+  font-weight: bold;
+}
+
+.user_registered .userType {
+  color: #00FF00;
+  font-weight: bold;
+}
+
+.user_guest .userType {
+  color: #FF8000;
+  font-weight: bold;
+}
+
+.user_banned .userType {
+  color: #FF0000;
+  font-weight: bold;
+}
+
+.user_moderator .userType {
+  color: #00FFFF;
+  font-weight: bold;
+}
+
+.user_editor.userType {
+  color: #00C040;
+  font-weight: bold;
+}
+
+.dateBox .year {
+  font-size: 0.75em;
+  display: block;
+}
+
+.dateBox .month {
+  font-size: 0.75em;
+  display: block;
+}
+
+.dateBox .day {
+  font-size: 1.5em;
+  display: block;
+}
+
+.dateBox .weekday {
+  font-size: 0.5em;
+  display: block;
+}
+
+.postDateLong {
+  float: right;
+  display: block;
+  font-family: GeneticDefect;
+  color: #4f2;
+}
+
+.dateBox {
+  float: left;
+  text-align: center;
+  display: block;
+  color: #4f2;
+  font-family: GeneticDefect;
+  border: 1px solid #0F0;
+}
+
+.postContent {
+  clear: both;
+  color: #FFF;
+}
+
+.post .categoryList li, .page .categoryList li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 20px;
+}
+
+.topBar {
+  text-align: center;
+  width: 100%;
+}
+
+.topBar ul {
+  width: 100%;
+}
+
+.topBar li {
+  display: inline-block;
+  list-style-type: none;
+  width: 20%;
+  padding: 5px;
+  margin: 20px;
+  font-size: 1.25em;
+  border: 5px solid #4f2;
+  color: #4f2;
+  background-color: #030;
+  font-family: GeneticDefect;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.topBar a {
+  text-decoration: none;
+}
+
+.topBar a span {
+  width: 100%;
+  display: inline-block;
+}
+
+.editedInfo {
+  font-size: 0.5em;
+}
+
+.calendar {
+  text-align: right;
+  font-family: monospace;
+}
+
+.monthRow td {
+  text-align: center;
+}
+
+/* Admin */
+
+.adminMenu {
+  width: 19%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.adminMainSection {
+  width:78%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.borderTableCells td, .borderTableCells th {
+  border: 1px solid white;
+}
+
+.managePosts, .managePages {
+  width: 100%;
+  border: 1px solid white;
+}
+
+.banCell, .moderatedCell {
+  background-color: #804;
+}
+
+.unbanCell, .unmoderatedCell {
+  background-color: #080;
+}
+
+.userFlagText {
+  font-size: 0.5em;
+}
+
+
